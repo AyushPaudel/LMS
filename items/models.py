@@ -50,7 +50,6 @@ class Transaction(models.Model):
     lab_incharge = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, related_name="incharge_id")
 
 
-AUTH_USER_MODEL = 'users.UserProfile'
 
 
 
